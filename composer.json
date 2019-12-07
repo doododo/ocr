@@ -1,0 +1,27 @@
+{
+    "name": "doododo/ocr",
+    "description": "ocr is a package for can be OCR image",
+    "keywords": ["ocr", "image", "ID Card", "Business License", "Business Card"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "doododo",
+            "email": "saybye720@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doododo\\OCR\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Doododo\\OCR\\Tests\\": "tests/"
+        }
+    }
+}
